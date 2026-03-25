@@ -3,9 +3,9 @@ import pandas as pd
 import joblib
 
 # ---------------- LOAD MODEL ----------------
-model = joblib.load("model/model.pkl")
-scaler = joblib.load("model/scaler.pkl")
-columns = joblib.load("model/columns.pkl")
+model = joblib.load("model.pkl")
+scaler = joblib.load("scaler.pkl")
+columns = joblib.load("columns.pkl")
 
 st.set_page_config(page_title="Marketing Sales Revenue Predictor")
 
